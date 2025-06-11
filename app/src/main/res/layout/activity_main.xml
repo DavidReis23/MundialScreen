@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Mundiais de Clubes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:hint="Digite o nome do time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/botaoBuscar"
+        android:text="Buscar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:textSize="18sp"
+        android:paddingTop="24dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/botaoVerImagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Imagem do Mundial"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imagemMundial1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Imagem da taça"
+        android:visibility="gone"
+        android:src="@drawable/flamengo" />
+
+    <Button
+        android:id="@+id/botaoLimpar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/botaosobre"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/botaoprof"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Professores"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/botaovideo"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Vídeo"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_light"
+        android:text="Sobre mim"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textoDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olá, meu nome é David e tenho 19 anos. Sou estudante
+do terceiro semestre de Análise e Desenvolvimento de Sistemas no IFCE de Tauá. Sou torcedor
+do Flamengo e gosto muito de jogar e assitir jogos. E isso é um pouco sobre mim."
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/imagemEu"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="Minha foto" />
+
+    <Button
+        android:id="@+id/botaovoltar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
