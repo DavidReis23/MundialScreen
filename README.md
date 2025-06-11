@@ -35,7 +35,7 @@ O aplicativo utiliza os seguintes dados para os títulos da Copa do Mundo de Clu
 ## Instalação (para desenvolvedores)
 
 1.  Clone este repositório:
-    `git clone [seu-link-do-repositorio-github]`
+    `https://github.com/DavidReis23/MundialScreen`
 2.  Abra o projeto no Android Studio.
 3.  Compile e execute o aplicativo em um emulador ou em um dispositivo físico.
 
